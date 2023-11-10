@@ -1,0 +1,25 @@
+{
+  "name": "kivesd-interview",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "nr generate && wrangler pages deploy --project-name kivesd-interview dist/"
+  },
+  "devDependencies": {
+    "@antfu/ni": "^0.21.9",
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.8.1",
+    "sass": "^1.69.5",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootswatch": "^5.3.2"
+  }
+}
