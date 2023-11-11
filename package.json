@@ -13,13 +13,24 @@
   "devDependencies": {
     "@antfu/ni": "^0.21.9",
     "@nuxt/devtools": "latest",
+    "@types/accounting": "^0.4.5",
+    "@types/lodash-es": "^4.17.11",
+    "@types/luxon": "^3.3.4",
+    "add": "^2.0.6",
     "nuxt": "^3.8.1",
     "sass": "^1.69.5",
+    "type-fest": "^4.7.1",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "accounting": "^0.4.1",
+    "any-date-parser": "^1.5.4",
     "bootstrap": "^5.3.2",
-    "bootswatch": "^5.3.2"
+    "fuse.js": "^7.0.0",
+    "lodash-es": "^4.17.21",
+    "vue-define-state": "^0.0.3",
+    "vue3-popper": "^1.5.0",
+    "vuejs-paginate-next": "^1.0.2"
   }
 }

@@ -1,3 +1,21 @@
-@import "bootswatch/dist/flatly/_variables";
 @import "bootstrap/scss/bootstrap";
-@import "bootswatch/dist/flatly/_bootswatch";
+
+:root {
+  --popper-theme-background-color: #333333;
+  --popper-theme-background-color-hover: #333333;
+  --popper-theme-text-color: #ffffff;
+  --popper-theme-border-width: 0px;
+  --popper-theme-border-style: solid;
+  --popper-theme-border-radius: 6px;
+  --popper-theme-padding: 1rem;
+  --popper-theme-box-shadow: 0 6px 30px -6px rgba(0, 0, 0, 0.25);
+}
+
+.form-check {
+
+  input,
+  label {
+    cursor: pointer;
+    user-select: none;
+  }
+}
